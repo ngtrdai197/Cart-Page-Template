@@ -1,0 +1,61 @@
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th {
+  text-align: left;
+  padding: 15px 0 15px 15px;
+  background-color: #ececec;
+}
+table td {
+  padding: 15px 0 15px 15px;
+}
+th span {
+  padding-right: 7px;
+}
+th span i {
+  font-weight: normal !important;
+  color: gray;
+}
+tr {
+  border: 1px solid #e7e7e7;
+}
+tr:first-child {
+  border: 1px solid #d6d3d3;
+}
+
+.paginator {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.jump span {
+  padding-right: 10px;
+  color: grey;
+  font-weight: 600;
+}
+.jump input {
+  max-width: 25px;
+}
+
+input[type="number"] {
+  max-width: 18px;
+  margin: 0 12px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
