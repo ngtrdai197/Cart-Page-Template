@@ -1,0 +1,111 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  background-image: url("./images/bg-cart-template.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container .wrapper-content {
+  margin: 0 35px;
+  padding: 0 15px;
+}
+.wrapper-content .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.wrapper-content .cart-table {
+  background-color: #e7e7e7;
+  padding: 25px;
+}
+.cart-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-table table tr {
+  border-bottom: 1px solid gray;
+}
+.cart-table td {
+  padding-right: 20px;
+}
+.cart-table tr th {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.cart-table td input {
+  max-width: 30px;
+  padding: 10px;
+}
+.cart-table .item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cart-table .price {
+  font-weight: bold;
+  font-size: 16px;
+}
+.cart-table .item img {
+  width: 60px;
+  height: 70px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+}
+
+.amount .name {
+  margin-right: 35px;
+}
+
+.total-amount {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.continue {
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  font-size: 17px;
+}
+.actions .name {
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+}
+.wrapper-checkout {
+    text-align: right;
+}
+button.checkout {
+  background: orange;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-top: 22px;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+button.checkout:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: orangered;
+}
